@@ -1,0 +1,12 @@
+<suite name="QA Flight Application">
+	<test name="FlightBooking">
+		<parameter name="depCity" value="Amritsar (ATQ)" />
+		<parameter name="arrCity"  value=" Delhi (DEL)" />
+		<parameter name = "date" value = "7"/>
+		<parameter name ="displayedDate" value ="Tue, May 07 2019"/>
+		<parameter name = "curr" value = "USD"/>	
+			<classes>
+				<class name="tests.FlightBookingTest" />
+			</classes>
+	</test>
+</suite>
