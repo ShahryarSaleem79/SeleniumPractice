@@ -1,19 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [QA Flight Application]">
-  <test thread-count="5" name="FlightBooking(failed)">
-    <parameter name="date" value="7"/>
-    <parameter name="arrCity" value=" Delhi (DEL)"/>
-    <parameter name="depCity" value="Amritsar (ATQ)"/>
-    <parameter name="displayedDate" value="Tue, May 07 2019"/>
-    <parameter name="curr" value="USD"/>
+  <test thread-count="5" name="AutoSuggestiveDropdown(failed)">
+    <parameter name="countryName" value="Pakistan"/>
     <classes>
-      <class name="tests.FlightBookingTest">
+      <class name="tests.AutoSuggestedDropdownTest">
         <methods>
           <include name="setUp"/>
-          <include name="checkMMYY" invocation-numbers="0"/>
+          <include name="tearDown"/>
+          <include name="countryname"/>
         </methods>
-      </class> <!-- tests.FlightBookingTest -->
+      </class> <!-- tests.AutoSuggestedDropdownTest -->
     </classes>
-  </test> <!-- FlightBooking(failed) -->
+  </test> <!-- AutoSuggestiveDropdown(failed) -->
 </suite> <!-- Failed suite [QA Flight Application] -->
