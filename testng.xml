@@ -9,18 +9,21 @@
 			<class name="tests.FlightBookingTest" />
 		</classes>
 	</test>
-	<test name ="RadionButtons">
-	<classes>
+	<test name="RadionButtons">
+		<classes>
 			<class name="tests.RadioButtonsTest" />
 		</classes>
 	</test>
-	<test name = "AutoSuggestiveDropdown">
-		<parameter name = "country" value ="Pa"/>
-		<parameter name = "countryName" value ="Pakistan"/>
-	<classes>
-	<class name = "tests.AutoSuggestedDropdownTest"/>
-	</classes>
-	
+	<test name="AutoSuggestiveDropdown">
+		<parameter name="country" value="Pa" />
+		<parameter name="countryName" value="Pakistan" />
+		<classes>
+			<class name="tests.AutoSuggestedDropdownTest" />
+		</classes>
 	</test>
-
+	<test name="Checkboxes">
+		<classes>
+			<class name="tests.CheckboxesTest" />
+		</classes>
+	</test>
 </suite>
