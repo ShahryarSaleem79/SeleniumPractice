@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-12-14T16:16:48 EST" name="QA Flight Application" finished-at="2025-12-14T16:17:49 EST" duration-ms="60580">
+  <suite started-at="2025-12-15T11:08:57 EST" name="QA Flight Application" finished-at="2025-12-15T11:09:30 EST" duration-ms="33010">
     <groups>
     </groups>
-    <test started-at="2025-12-14T16:16:48 EST" name="FlightBooking" finished-at="2025-12-14T16:17:01 EST" duration-ms="12400">
+    <test started-at="2025-12-15T11:08:57 EST" name="FlightBooking" finished-at="2025-12-15T11:09:09 EST" duration-ms="11484">
       <class name="tests.FlightBookingTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.FlightBookingTest@7c7b252e]" started-at="2025-12-14T16:16:48 EST" name="setUp" finished-at="2025-12-14T16:16:52 EST" duration-ms="3932" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.FlightBookingTest@7c7b252e]" started-at="2025-12-15T11:08:57 EST" name="setUp" finished-at="2025-12-15T11:09:04 EST" duration-ms="6486" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="checkMMYY(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.FlightBookingTest@7c7b252e]" started-at="2025-12-14T16:16:52 EST" name="checkMMYY" finished-at="2025-12-14T16:17:00 EST" duration-ms="7652" status="PASS">
+        <test-method signature="checkMMYY(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.FlightBookingTest@7c7b252e]" started-at="2025-12-15T11:09:04 EST" name="checkMMYY" finished-at="2025-12-15T11:09:08 EST" duration-ms="4286" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -42,35 +42,35 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkMMYY -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.FlightBookingTest@7c7b252e]" started-at="2025-12-14T16:17:00 EST" name="tearDown" finished-at="2025-12-14T16:17:01 EST" duration-ms="728" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.FlightBookingTest@7c7b252e]" started-at="2025-12-15T11:09:08 EST" name="tearDown" finished-at="2025-12-15T11:09:09 EST" duration-ms="616" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- tests.FlightBookingTest -->
     </test> <!-- FlightBooking -->
-    <test started-at="2025-12-14T16:17:01 EST" name="RadionButtons" finished-at="2025-12-14T16:17:09 EST" duration-ms="7951">
+    <test started-at="2025-12-15T11:09:09 EST" name="RadionButtons" finished-at="2025-12-15T11:09:15 EST" duration-ms="6350">
       <class name="tests.RadioButtonsTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.RadioButtonsTest@3d285d7e]" started-at="2025-12-14T16:17:01 EST" name="setUp" finished-at="2025-12-14T16:17:08 EST" duration-ms="7327" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.RadioButtonsTest@3d285d7e]" started-at="2025-12-15T11:09:09 EST" name="setUp" finished-at="2025-12-15T11:09:15 EST" duration-ms="5709" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="radioButtonTest()[pri:0, instance:tests.RadioButtonsTest@3d285d7e]" started-at="2025-12-14T16:17:08 EST" name="radioButtonTest" finished-at="2025-12-14T16:17:08 EST" duration-ms="175" status="PASS">
+        <test-method signature="radioButtonTest()[pri:0, instance:tests.RadioButtonsTest@3d285d7e]" started-at="2025-12-15T11:09:15 EST" name="radioButtonTest" finished-at="2025-12-15T11:09:15 EST" duration-ms="147" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- radioButtonTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.RadioButtonsTest@3d285d7e]" started-at="2025-12-14T16:17:08 EST" name="tearDown" finished-at="2025-12-14T16:17:09 EST" duration-ms="440" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.RadioButtonsTest@3d285d7e]" started-at="2025-12-15T11:09:15 EST" name="tearDown" finished-at="2025-12-15T11:09:15 EST" duration-ms="485" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- tests.RadioButtonsTest -->
     </test> <!-- RadionButtons -->
-    <test started-at="2025-12-14T16:17:09 EST" name="AutoSuggestiveDropdown" finished-at="2025-12-14T16:17:40 EST" duration-ms="31294">
+    <test started-at="2025-12-15T11:09:15 EST" name="AutoSuggestiveDropdown" finished-at="2025-12-15T11:09:23 EST" duration-ms="7734">
       <class name="tests.AutoSuggestedDropdownTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.AutoSuggestedDropdownTest@49438269]" started-at="2025-12-14T16:17:09 EST" name="setUp" finished-at="2025-12-14T16:17:12 EST" duration-ms="2883" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.AutoSuggestedDropdownTest@49438269]" started-at="2025-12-15T11:09:15 EST" name="setUp" finished-at="2025-12-15T11:09:21 EST" duration-ms="5673" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="countryname(java.lang.String,java.lang.String)[pri:0, instance:tests.AutoSuggestedDropdownTest@49438269]" started-at="2025-12-14T16:17:12 EST" name="countryname" finished-at="2025-12-14T16:17:38 EST" duration-ms="26313" status="PASS">
+        <test-method signature="countryname(java.lang.String,java.lang.String)[pri:0, instance:tests.AutoSuggestedDropdownTest@49438269]" started-at="2025-12-15T11:09:21 EST" name="countryname" finished-at="2025-12-15T11:09:22 EST" duration-ms="1226" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -86,27 +86,27 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- countryname -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.AutoSuggestedDropdownTest@49438269]" started-at="2025-12-14T16:17:38 EST" name="tearDown" finished-at="2025-12-14T16:17:40 EST" duration-ms="2084" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.AutoSuggestedDropdownTest@49438269]" started-at="2025-12-15T11:09:22 EST" name="tearDown" finished-at="2025-12-15T11:09:23 EST" duration-ms="824" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- tests.AutoSuggestedDropdownTest -->
     </test> <!-- AutoSuggestiveDropdown -->
-    <test started-at="2025-12-14T16:17:40 EST" name="Checkboxes" finished-at="2025-12-14T16:17:49 EST" duration-ms="8813">
+    <test started-at="2025-12-15T11:09:23 EST" name="ChecboxTest" finished-at="2025-12-15T11:09:30 EST" duration-ms="7286">
       <class name="tests.CheckboxesTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.CheckboxesTest@5dda768f]" started-at="2025-12-14T16:17:40 EST" name="setUp" finished-at="2025-12-14T16:17:47 EST" duration-ms="7228" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.CheckboxesTest@5dda768f]" started-at="2025-12-15T11:09:23 EST" name="setUp" finished-at="2025-12-15T11:09:29 EST" duration-ms="5562" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyCheckBox()[pri:0, instance:tests.CheckboxesTest@5dda768f]" started-at="2025-12-14T16:17:47 EST" name="verifyCheckBox" finished-at="2025-12-14T16:17:48 EST" duration-ms="1128" status="PASS">
+        <test-method signature="verifyCheckBox()[pri:0, instance:tests.CheckboxesTest@5dda768f]" started-at="2025-12-15T11:09:29 EST" name="verifyCheckBox" finished-at="2025-12-15T11:09:30 EST" duration-ms="1246" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyCheckBox -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CheckboxesTest@5dda768f]" started-at="2025-12-14T16:17:48 EST" name="tearDown" finished-at="2025-12-14T16:17:49 EST" duration-ms="442" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CheckboxesTest@5dda768f]" started-at="2025-12-15T11:09:30 EST" name="tearDown" finished-at="2025-12-15T11:09:30 EST" duration-ms="472" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- tests.CheckboxesTest -->
-    </test> <!-- Checkboxes -->
+    </test> <!-- ChecboxTest -->
   </suite> <!-- QA Flight Application -->
 </testng-results>
