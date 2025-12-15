@@ -1,25 +1,29 @@
 <suite name="QA Flight Application">
-<test name="FlightBooking">
-<parameter name="depCity" value="Amritsar (ATQ)" />
-<parameter name="arrCity" value=" Delhi (DEL)" />
-<parameter name="date" value="7" />
-<parameter name="displayedDate" value="Tue, May 07 2019" />
-<parameter name="curr" value="USD" />
-<classes>
-<class name="tests.FlightBookingTest" />
-</classes>
-</test>
-<test name ="RadionButtons">
-<classes>
-<class name="tests.RadioButtonsTest" />
-</classes>
-</test>
-<test name = "AutoSuggestiveDropdown">
-<parameter name = "country" value ="Pa"/>
-<parameter name = "countryName" value ="Pakistan"/>
-<classes>
-<class name = "tests.AutoSuggestedDropdownTest"/>
-</classes>
-</test>
-
+	<test name="FlightBooking">
+		<parameter name="depCity" value="Amritsar (ATQ)" />
+		<parameter name="arrCity" value=" Delhi (DEL)" />
+		<parameter name="date" value="7" />
+		<parameter name="displayedDate" value="Tue, May 07 2019" />
+		<parameter name="curr" value="USD" />
+		<classes>
+			<class name="tests.FlightBookingTest" />
+		</classes>
+	</test>
+	<test name="RadionButtons">
+		<classes>
+			<class name="tests.RadioButtonsTest" />
+		</classes>
+	</test>
+	<test name="AutoSuggestiveDropdown">
+		<parameter name="country" value="Pa" />
+		<parameter name="countryName" value="Pakistan" />
+		<classes>
+			<class name="tests.AutoSuggestedDropdownTest" />
+		</classes>
+	</test>
+	<test name = "ChecboxTest">
+		<classes>
+			<class name="tests.CheckboxesTest" />
+		</classes>
+	</test>
 </suite>
