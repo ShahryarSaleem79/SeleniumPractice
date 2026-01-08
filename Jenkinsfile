@@ -3,11 +3,20 @@ pipeline {
 
     stages {
         
-        stage('Hello World') {
+        stage('Checkout') {
             steps {
-                echo 'Hello World'
+                echo 'Checkout Code'
+                git branch: 'master', url: 'https://github.com/ShahryarSaleem79/SeleniumPractice.git'
                 
+            }
+        }
+
+        stage('Build') {
+            steps {
+                echo 'mvn clean complie'
+                sh 'mvn clean compile'
             }
         }
     }
 }
+ 
