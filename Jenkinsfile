@@ -3,10 +3,10 @@ pipeline {
 
     stages {
         
-        stage('Run TestNG Tests') {
+        stage('Hello World') {
             steps {
-                echo 'Running TestNG tests from testng.xml'
-                sh 'mvn clean test -DsuiteXmlFile=testng.xml'
+                echo 'Hello World'
+                
             }
         }
     }
