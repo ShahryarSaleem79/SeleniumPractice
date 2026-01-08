@@ -1,16 +1,7 @@
 pipeline {
     agent any
 
-    tools {
-        jdk 'JDK11'          // configured in Jenkins Global Tools
-        maven 'Maven3'       // configured in Jenkins Global Tools
-    }
-
-    environment {
-        BROWSER = 'chrome'
-        ENV = 'qa'
-    }
-
+    
     stages {
 
         stage('Checkout Code') {
