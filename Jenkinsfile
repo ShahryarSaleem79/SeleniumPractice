@@ -5,7 +5,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 git branch: 'main',
-                    url: 'https://github.com/your-org/selenium-testng-project.git'
+                    url: 'https://github.com/ShahryarSaleem79/SeleniumPractice.git'
             }
         }
 
